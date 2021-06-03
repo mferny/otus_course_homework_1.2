@@ -4,6 +4,7 @@
 
 #include <vector>
 #include <iostream>
+#include <algorithm>
 
 using ipPool_t = std::vector<std::vector<int>>;
 
