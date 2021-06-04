@@ -20,6 +20,7 @@ jobs:
       - run: cmake --build . --target package
       - run: make
       - run: cat ip_filter.tsv | ./ip_filter
+      - run: cat ip_filter.tsv | ./ip_filter | md5sum
       - run: ./test/test_ip
       - name: Create Release
         id: create_release
