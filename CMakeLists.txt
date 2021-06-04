@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.17)
 
-project(ip_filter)
+project(ip_filter VERSION 0.0.$ENV{GITHUB_RUN_NUMBER})
 
 set(CMAKE_CXX_STANDARD 17)
 
